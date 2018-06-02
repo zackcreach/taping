@@ -1,0 +1,28 @@
+{
+  "name": "mern-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackcreach/mern-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zackcreach/mern-playground/issues"
+  },
+  "homepage": "https://github.com/zackcreach/mern-playground#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "nodemon": "^1.17.5",
+    "webpack": "^4.10.2"
+  }
+}

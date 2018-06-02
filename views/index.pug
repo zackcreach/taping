@@ -1,0 +1,11 @@
+extends partials/wrapper
+
+block body
+  .index now what
+  if react != undefined
+    #react-root!= react
+  else
+    p nothing to show
+  
+  for item in navigation
+    p!= item
